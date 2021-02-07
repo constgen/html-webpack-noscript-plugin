@@ -1,0 +1,52 @@
+{
+	"name": "html-webpack-noscript-plugin",
+	"version": "0.1.0",
+	"description": "Webpack plugin to add <noscript> to body",
+	"main": "src/html-webpack-noscript-plugin.js",
+	"scripts": {
+		"eslint": "eslint ./",
+		"test": "npm run eslint -- --max-warnings 0",
+		"lint": "npm run eslint -- --fix",
+		"postversion": "git push --tags"
+
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/constgen/html-webpack-noscript-plugin.git"
+	},
+	"keywords": [
+		"webpack",
+		"plugin",
+		"html",
+		"noscript"
+	],
+	"author": "Constantine Genchevsky <const.gen@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/constgen/html-webpack-noscript-plugin/issues"
+	},
+	"homepage": "https://github.com/constgen/html-webpack-noscript-plugin#readme",
+	"devDependencies": {
+		"@constgen/eslint": "~3.1.0",
+		"neutrino": "~9.4.0",
+		"eslint": "^7.16.0",
+		"html-webpack-plugin": "^4.5.1"
+	},
+	"peerDependencies": {
+		"html-webpack-plugin": "^4.0.0",
+		"webpack": "^3.0.0 || ^4.0.0"
+	},
+	"engines": {
+		"node": ">=10",
+		"npm": ">=5.4.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src",
+		"LICENSE",
+		"README.md",
+		"package.json"
+	]
+}
