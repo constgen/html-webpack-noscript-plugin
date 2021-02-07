@@ -30,7 +30,7 @@ jobs:
     needs: setup
     name: Testing
     runs-on: ubuntu-latest
-     steps:
+    steps:
       - run: npm test
   publish:
     needs: test
