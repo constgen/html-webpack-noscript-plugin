@@ -1,5 +1,9 @@
 # html-webpack-noscript-plugin
 
+[![NPM version][npm-image]][npm-url]
+[![NPM downloads][npm-downloads]][npm-url]
+[![NPM Package][workflow-status]][actions]
+
 Webpack Plugin that extends HtmlWebpackPlugin template with `<noscript>` tag with arbitrary HTML content inside
 
 ## Installation
@@ -47,3 +51,9 @@ This will affect the compiled HTML file
   </body>
 </html>
 ```
+
+[npm-image]: https://img.shields.io/npm/v/html-webpack-noscript-plugin.svg
+[npm-downloads]: https://img.shields.io/npm/dt/html-webpack-noscript-plugin.svg
+[npm-url]: https://npmjs.org/package/html-webpack-noscript-plugin
+[actions]: https://github.com/constgen/html-webpack-noscript-plugin/actions
+[workflow-status]: https://github.com/constgen/html-webpack-noscript-plugin/workflows/NPM%20Package/badge.svg?branch=main
