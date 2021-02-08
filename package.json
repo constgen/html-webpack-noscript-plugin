@@ -27,7 +27,7 @@
 	},
 	"homepage": "https://github.com/constgen/html-webpack-noscript-plugin#readme",
 	"devDependencies": {
-		"@constgen/eslint": "~3.1.0",
+		"@constgen/eslint": "~3.2.0",
 		"neutrino": "~9.4.0",
 		"eslint": "^7.16.0",
 		"html-webpack-plugin": "^4.5.1",
