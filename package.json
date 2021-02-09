@@ -7,7 +7,7 @@
 		"eslint": "eslint ./",
 		"test": "npm run eslint -- --max-warnings 0",
 		"lint": "npm run eslint -- --fix",
-		"postversion": "git push --tags"
+		"postversion": "git push && git push --tags"
 	},
 	"repository": {
 		"type": "git",
